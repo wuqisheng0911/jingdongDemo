@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 700px;
+	width: 100%;
+}
+.top{
+	width: 990px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+.top .logo{
+	height: 60px;
+	width: 300px;
+	margin: 10px 0;
+	float: left;
+	position: relative;
+	/*background-color: yellow;*/
+}
+.top b{
+	position: absolute;
+	height: 40px;
+	width: 110px;
+	right: 0;
+	bottom: 0;
+	background: url(../images2/l-icon.png);
+}
+.con{
+	height: 541px;
+	width: 100%;
+	clear: both;
+	background-color: #0D47C5;
+}
+.con .tip{
+	height: 19px;
+	padding: 10px 0;
+	width: 100%;
+	background-color: #FFF8F0;
+}
+.con .tip .tip-con{
+	width: 90%;
+	height: 19px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	/*line-height: 19px;*/
+	color: #999;
+	/*background-color: red;*/
+}
+.con .tip .tip-con i{
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url(../images2/icon-tips.png);
+}
+.con .tip .tip-con p{
+	display: inline-block;
+	vertical-align: middle;
+}
+.con .tip .tip-con p a{
+	text-decoration: none;
+	color: #333;
+}
+.con .mainview{
+	height: 475px;
+	width: 990px;
+	margin: 0 auto;
+	background: url(../images2/con-bg.jpg) no-repeat;
+}
+.con .mainview .login-form{
+	height: 400px;
+	width: 346px;
+	float: right;
+	top: 10px;
+	position: relative;
+	background-color: #fff;
+}
+.con .mainview .login-form .title{
+	height: 55px;
+	width: 173px;
+	float: left;
+	position: relative;
+	line-height: 55px;
+	text-align: center;
+	font-size: 18px;
+	border-bottom: 1px solid #F4F4F4;
+}
+.con .mainview .login-form .title .type-2{
+	height: 194px;
+	width: 306px;
+	padding-top: 33px;
+	position: absolute;
+	top: 56px;
+	right: 20px;
+	/*background: pink;*/
+}
+.con .mainview .login-form .title .type-2 form{
+	height: 100%;
+	width: 100%;
+	border-bottom: 1px solid 
+	position: relative;
+	/*background: pink;*/
+}
+.con .mainview .login-form .title .type-2 form label{
+	display: inline-block;
+	height: 38px;
+	width: 266px;
+	padding: 0 0 0 38px;
+	position: relative;
+	border: none;
+	margin-bottom: 20px;
+	border: 1px solid #BDBDBD;
+}
+.con .mainview .login-form .title .type-2 form label:nth-child(1){
+	background: url(../images2/pwd-icons-new.png) no-repeat 0 0;
+}
+.con .mainview .login-form .title .type-2 form label:nth-child(2){
+	background: url(../images2/pwd-icons-new.png) no-repeat -48px 0;
+}
+.con .mainview .login-form .title .type-2 form input{
+	display: inline-block;
+	height: 38px;
+	width: 265px;
+	border: none;
+	/*position: absolute;*/
+	/*float: left;*/
+	border-left: 1px solid #BDBDBD;
+	outline: none;
+	vertical-align: top;
+}
+.con .mainview .login-form .title .type-2 form a{
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+	position: absolute;
+	top: 137px;
+	right: 0;
+}
+.con .mainview .login-form .title .type-2 form a:hover{
+	color: #E4393C;
+	text-decoration: underline;
+	text-decoration-color: #E4393C;
+}
+.con .mainview .login-form .title .type-2 form button{
+	display: block;
+	height: 31px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	font-size: 20px;
+	line-height: 31px;
+	color: #fff;
+	background-color: #E4393C;
+	border: 1px solid #E85356;
+}
+.bottom{
+	height: 50px;
+	width: 306px;
+	padding: 0 20px;
+	border-top: 1px solid #F4F4F4;
+	position: absolute;
+	/*background: pink;*/
+	bottom: 0;
+	left: 0;
+}
+.bottom p{
+	height: 18px;
+	width: 100%;
+	margin:16px 0;
+	font-size: 12px;
+	line-height: 12px;
+	color: #666;
+	/*background: red;*/
+}
+.bottom p a ,.bottom p span{
+	display: inline-block;
+	color: #666;
+	text-decoration: none;
+	margin: 0 8px;
+	vertical-align: middle;
+}
+.bottom p a:hover{
+	color: #E4393C;
+	text-decoration: underline;
+	text-decoration-color: #E4393C;
+}
+.bottom p i{
+	display: inline-block;
+	height: 18px;
+	width: 19px;
+	/*margin-right: 8px;*/
+	vertical-align: middle;
+}
+.bottom p i:nth-child(1){
+	background: url(../images2/QQ-weixin.png) no-repeat 0 0;
+}
+.bottom p i:nth-child(4){
+	background: url(../images2/QQ-weixin.png) no-repeat -19px 0px;
+}
+.bottom p a:nth-child(6){
+	float: right;
+}
+.bottom p i:nth-child(7){
+	float: right;
+	background: url(../images2/pwd-icons-new.png) no-repeat -102px -75px;
+}
+.info{
+	height: 56px;
+	width: 100%;
+	/*background: pink;*/
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+.info p{
+	height: 18px;
+	width: 990px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+	text-align: center;
+	margin-top: 10px;
+}
+.info p a{
+	color: #666;
+	margin: 0 8px;
+	text-decoration: none;
+}
+.info p a:hover{
+	color: #E4393C;
+	text-decoration: underline;
+	text-decoration-color: #E4393C;
+}
