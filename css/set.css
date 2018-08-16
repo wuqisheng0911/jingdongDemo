@@ -1,0 +1,685 @@
+@charset "utf-8";
+
+.set-one{
+	height: 450px;
+	width: 100%;
+	margin-bottom: 30px;
+	/*background-color: pink;*/
+}
+.set-one .set-one-con{
+	height: 450px;
+	width: 1190px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div{
+	height: 450px;
+	width: 390px;
+	float: left;
+	margin: 0 10px 30px 0;
+	background-color: #fff;
+}
+/*.set-one .set-one-con{
+	border: 1px solid red;
+}*/
+.set-one .set-one-con div:last-child{
+	height: 450px;
+	width: 390px;
+	float: right;
+	margin: 0;
+	background-color: #fff;
+}
+.set-one .set-one-con div .set-div-img{
+	height: 411px;
+	width: 350px;
+	margin: 20px 20px 0;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .set-div-img .top-img-ico{
+	display: inline-block;
+	height: 45px;
+	width: 350px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	/*background-color: pink;*/
+}
+.set-one .set-one-con div .set-div-img .top-img-ico .top-left-img-ico{
+	height: 43px;
+	width: 130px;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+.set-one .set-one-con div .set-div-img .top-img-ico span{
+	line-height: 45px;
+	color: #333;
+	font-size:18px;
+}
+.set-one .set-one-con div .set-div-img .con-image-big{
+	height: 226px;
+	width: 350px;
+	margin-bottom: 20px;
+	/*background-color: green;*/
+}
+.set-one .set-one-con div .set-div-img .small-image{
+	height: 100px;
+	width: 100px;
+	margin: 0 8px;
+	float: left;
+	/*background-color: yellow;*/
+}
+.set-title{
+	height: 45px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.set-title .set-title-con{
+	height: 45px;
+	width: 1190px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	/*background-color: pink;*/
+}
+.set-title .set-title-con h2{
+	line-height: 45px;
+	height: 45px;
+	width: 230px;
+	font-family: 'fzzzh';
+	font-weight: normal;
+	margin: 0 auto;
+}
+.set-one .set-one-con div .set-one-con-top{
+	height: 60px;
+	width: 390px;
+	margin: 0;
+}
+.set-one .set-one-con div .set-one-con-top .soctc{
+	height: 60px;
+	width: 350px;
+	float: none;
+	margin: 0 auto;
+}
+.set-one .set-one-con div .set-one-con-top .soctc a{
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	color: #666;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.set-one .set-one-con div .set-one-con-top .soctc a h3{
+	font-weight: normal;
+	position: relative;
+	float: left;
+    font-size: 22px;
+    top: 4px;
+    color: #222;
+    line-height: 44px;
+}
+.set-one .set-one-con div .set-one-con-top .soctc a i{
+	height: 23px;
+	width: 23px;
+	float: left;
+	position: relative;
+	left: 4px;
+	top: 2px;
+}
+.set-one .set-one-con div .set-one-con-top .soctc a span{
+	position: relative;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+	top: 17px;
+	text-align: center;
+	margin-left: 10px;
+	color: #999;
+}
+.set-one .set-one-con div .cent{
+	height: 355px;
+	width: 390px;
+	position: relative;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .cent .type{
+	height: 34px;
+	width: 390px;
+	background-color: #F7F7F7;
+}
+.set-one .set-one-con div .cent .type ul li{
+	list-style: none;
+	height: 34px;
+	width: 78px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+}
+.set-one .set-one-con div .cent .type ul li a{
+	color: #666;
+	text-decoration: none;
+}
+.set-one .set-one-con div .cent .type ul li a:hover{
+	color: #c81623;
+}
+.set-one .set-one-con div .cent .q{
+	position: absolute;
+	height: 355px;
+	top: 34px;
+	margin: 0;
+	padding: 0;
+}
+.set-one .set-one-con div .cent .q a{
+	display: block;
+	position: relative;
+	height: 107px;
+	width: 350px;
+	text-decoration: none;
+	/*background-color: yellow;*/
+	margin: 0 auto;
+}
+.set-one .set-one-con div .cent .q a .qa{
+	float: left;
+	margin-top: 15px;
+	position: absolute;
+	left: 0;
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .cent .q a span{
+	display: inline-block;
+	position: absolute;
+	left: 84px;
+	font-size: 32px;
+	font-weight: bold;
+	color: #e74240;
+	height: 40px;
+	width: 30px;
+	margin: 36px 0 0 10px;
+	float: left;
+}
+.set-one .set-one-con div .cent .q a span:nth-child(2){
+	color: #ED713D;
+}
+.set-one .set-one-con div .cent .q a span:nth-child(3){
+	color: #FEB185;
+}
+.set-one .set-one-con div .cent .q a i{
+	font-size: 12px;
+	font-style: normal;
+	display: block;
+    margin-left: 125px;
+    padding-top: 40px;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    color: #333;
+}
+.set-one .set-one-con div .cent .q a i:hover{
+	color: #E33333;
+}
+.set-one .set-one-con div .cent .w{
+	height: 355px;
+	width: 350px;
+	float: none;
+	margin: 0 auto;
+}
+.set-one .set-one-con div .cent .w .wimg{
+	float: none;
+	height: 128px;
+	width: 350px;
+	margin: 0 auto;
+	margin-bottom: 17px;
+	overflow: hidden;
+}
+.set-one .set-one-con div .cent .w .wbottom{
+	height: 210px;
+	width: 350px;
+	/*background-color: green;*/
+}
+.set-one .set-one-con div .cent .w .wbottom div{
+	margin: 0;
+	height: 105px;
+	width: 105px;
+}
+.set-one .set-one-con div .cent .w .wbottom div:nth-child(2){
+	margin: 0 17px 0;
+}
+.set-one .set-one-con div .cent .w .wbottom h3{
+	height: 58px;
+	width: 350px;
+	margin-top: 105px;
+	font-size: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 58px;
+	text-align: center;
+}
+.set-one .set-one-con div .cent .w .wbottom span{
+	display: block;
+	height: 36px;
+	width: 350px;
+	/*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/	
+	overflow: hidden;
+	font-size: 14px;
+	color: #666;
+}
+.set-one .set-one-con div .cent .e{
+	height: 355px;
+	width: 350px;
+	float: none;
+	margin: 0 auto;
+	/*background-color: green;*/
+}
+.set-one .set-one-con div .cent .e a{
+	display: block;
+	height: 118px;
+	width: 350px;
+	background-color: #F6F6F6;
+	border-radius: 10px;
+	position: relative;
+}
+.set-one .set-one-con div .cent .e a:nth-child(2){
+	background-color: #EEEFED;
+}
+.set-one .set-one-con div .cent .e a .bigradius{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #fff;
+	float: left;
+	margin: 14px 0 0 10px;
+}
+.set-one .set-one-con div .cent .e a .bigradius img{
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+	margin-top: 11px;
+	margin-left: 8px;
+}
+.set-one .set-one-con div .cent .e a .radius{
+	height: 16px;
+	width: 16px;
+	float: left;
+	position: absolute;
+	margin: 14px 0 0 10px;
+	border-radius: 50%;
+	right: 55px;
+	top: -22px;
+}
+.set-one .set-one-con div .cent .e a .radius-d{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	border-radius: 50%;
+	right: 43px;
+	top: 107px;
+}
+.set-one .set-one-con div .cent .e a .money{
+	height: 101px;
+	width: 168px;
+	position: absolute;
+	bottom: 0;
+	margin: 0 72px 0 110px;
+	background-color: #F6F6F6;
+}
+.set-one .set-one-con div .cent .e a .money i{
+	/*margin-right: 3px;*/
+    font-family: arial;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 38px;
+    font-size: 16px;
+    color: #e33333;
+}
+.set-one .set-one-con div .cent .e a .money span{
+	line-height: 38px;
+	font-size: 34px;
+	color: #e33333;
+	font-weight: bold;
+	text-align: left;
+}
+.set-one .set-one-con div .cent .e a .money .e-info-t{
+	font-size: 14px;
+	line-height: 24px;
+	height: 24px;
+	width: 168px;
+	margin: 0;
+	color: #B9BAB8;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #F6F6F6;
+}
+.set-one .set-one-con div .cent .e a .e-a{
+	position: absolute;
+	display: inline-block;
+	font-size: 12px;
+	color: #333333;
+	height: 100px;
+	width: 20px;
+	text-align: center;
+	right: 16px;
+	top: 10px;
+	overflow: hidden;
+}
+.set-one .set-one-con div .cent .e a .e-a:hover{
+	color: #FF0000;
+}
+.set-one .set-one-con div .cent .e a .money .e-info{
+	height: 24px;
+	width: 164px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #858986;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #F6F6F6;
+}
+.set-one .set-one-con div .cent .cent-c{
+	height: 250px;
+	width: 350px;
+	float: none;
+	/*background-color: green;*/
+	margin: 0 auto;
+}
+.set-one .set-one-con div .cent p{
+	height: 50px;
+	width: 350px;
+	margin: 0 auto;
+	line-height: 56px;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.set-one .set-one-con div .cent .pro-info{
+	display: block;
+	height: 40px;
+	width: 350px;
+	margin: 0 auto;
+	line-height: 20px;
+	font-size: 14px;
+	color: #999;
+	text-align: center;
+	overflow: hidden;
+	/*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+}
+.set-one .set-one-con div .con-r{
+	height: 378px;
+	width: 390px;
+	padding-top: 10px;
+	float: none;
+	/*background-color: red;*/
+	position: relative;
+	top: 60px;
+	margin: 0 auto;
+}
+.set-one .set-one-con div .con-r ul{
+	height: 368px;
+	width: 375px;
+	margin-left: 15px;
+	position: relative;
+	/*background-color: green;*/
+}
+.set-one .set-one-con div .con-r ul li{
+	float: left;
+	list-style: none;
+	height: 184px;
+	width: 180px;
+	position: absolute;
+	margin-top: 0;
+	/*background-color: yellow;*/
+}
+.set-one .set-one-con div .con-r ul li a{
+	display: inline-block;
+	height: 110px;
+	width: 110px;
+	position: absolute;
+	left: 34px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .con-r ul li:nth-child(2){
+	left: 180px;
+}
+.set-one .set-one-con div .con-r ul li:nth-child(3){
+	top: 184px;
+}
+.set-one .set-one-con div .con-r ul li:nth-child(4){
+	top: 184px;
+	left: 180px;
+}
+.set-one .set-one-con div .con-r ul li h4{
+	float: none;
+    font-size: 14px;
+    color: #3e8c96;
+    font-weight: bold;
+    height: 16px;
+    width: 160px;
+    padding: 0 10px;
+    line-height: 16px;
+    margin-top: 20px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    top: 105px;
+    left: -2px;
+}
+.set-one .set-one-con div .con-r ul li span{
+	display: block;
+	height: 14px;
+	width: 120px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 8px;
+    margin-top: 6px;
+    color: #666;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    top: 145px;
+    left: 20px;
+}
+.set-one .set-one-con div .con-r ul li:hover h4,.set-one .set-one-con div .con-r ul li:hover span{
+	color: #e33333;
+}
+.set-one .set-one-con div .con-t{
+	height: 370px;
+	width: 390px;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .con-t .con-t-q{
+	height: 250px;
+	width: 350px;
+	margin: 0 auto;
+	float: none;
+	/*background-color: yellow;*/
+}
+.set-one .set-one-con div .con-t .con-t-w{
+	height: 110px;
+	width: 360px;
+	margin: 10px 15px 0 15px;
+	position: relative;
+	float: none;
+	/*background-color: yellow;*/
+}
+.set-one .set-one-con div .con-t .con-t-w div{
+	height: 110px;
+	width: 110px;
+	margin: 0;
+	float: left;
+	position: absolute;
+	/*background-color: green;*/
+}
+.set-one .set-one-con div .con-t .con-t-w div:nth-child(2){
+	left: 125px;
+}
+.set-one .set-one-con div .con-t .con-t-w div:nth-child(3){
+	right: 0px;
+}
+.set-one .set-one-con div .con-y{
+	height: 370px;
+	width: 380px;
+	margin-left: 20px;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .con-y .con-y-top{
+	display: block;
+	height: 180px;
+	width: 350px;
+	position: relative;
+	left: 10px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	/*background-color: green;*/
+}
+.set-one .set-one-con div .con-y .con-y-bottom{
+	display: block;
+	height: 180px;
+	float: left;
+	width: 170px;
+	position: relative;
+	margin-bottom: 10px;
+	/*background-color: green;*/
+}
+.set-one .set-one-con div .con-y .con-y-bottom:nth-child(2){
+	left: 10px;
+}
+.set-one .set-one-con div .con-y .con-y-bottom:nth-child(3){
+	left: 20px;
+}
+.set-one .set-one-con div .con-u{
+	height: 450px;
+	width: 390px;
+	position: relative;
+	background-color: #f0f3ef;
+}
+.set-one .set-one-con div .con-u .con-u-q{
+	height: 420px;
+	width: 340px;
+	margin-top: 20px;
+	float: right;
+	margin-right:0; 
+	border: 5px solid #333;
+	background-color: #f0f3ef;
+}
+.set-one .set-one-con div .con-u .con-u-img{
+	height: 420px;
+	width: 340px;
+	position: absolute;
+	background-color: #F0F3EF;
+	left: 20px;
+}
+.set-one .set-one-con div .con-u .con-u-w{
+	height: 420px;
+	width: 340px;
+	margin-top: 20px;
+	float: left;
+	margin-left:0; 
+	border: 5px solid #333;
+	background-color: #f0f3ef;
+}
+.set-one .set-one-con .top-q{
+	display: block;
+	height: 220px;
+	width: 390px;
+	margin-bottom: 10px;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .congray{
+	height: 100%;
+	width: 100%;
+	background-color: #F0F3EF;
+}
+.set-one .set-one-con .top-q .top-q-c{
+	height: 18px;
+	width: 350px;
+	padding: 20px 20px 0 20px;
+	line-height: 18px;
+	margin: 0;
+	/*background-color: yellow;*/
+}
+.set-one .set-one-con .top-q .top-q-c h4{
+	display: inline-block;
+	color: #222;
+	font-weight: normal;
+	font-size: 18px;
+	
+}
+.set-one .set-one-con .top-q .top-q-c span{
+	color: #999;
+    font-size: 14px;
+    vertical-align: 1px;
+}
+.set-one .set-one-con .top-q .top-q-img{
+	height: 182px;
+	width: 390px;
+	/*padding-top: 30px;*/
+	background-color: #fff;
+}
+.set-one .set-one-con .top-q .top-q-img div{
+	height: 130px;
+	width: 130px;
+	float: left;
+	margin: 30px 30px;
+	/*background-color: red;*/
+}
+/*.set-one .set-one-con .top-q .top-q-img div:nth-child(2){
+	height: 130px;
+	width: 130px;
+	float: right;
+	margin: 0 30px;
+	background-color: red;
+}*/
+.set-one .set-one-con div .con-u .con-u-img .u-top{
+	height: 200px;
+	width: 340px;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .phone-con{
+	height: 368px;
+	width: 370px;
+	margin-left: 20px;
+	/*background-color: red;*/
+}
+.set-one .set-one-con div .phone-con .phone-image{
+	display: inline-block;
+	height: 180px;
+	width: 170px;
+	overflow: hidden;
+	margin: 0 5px 5px 0;
+}
+.set-one .set-one-con div .phone-con .phonebottom{
+	display: inline-block;
+	height: 178px;
+	width: 348px;
+	overflow: hidden;
+	/*border: 1px solid #EBEAEA;*/
+}
+.set-one .set-one-con div .phone-con .phonebottom ul{
+	height: 100%;
+	width: 100%;
+}
+.set-one .set-one-con div .phone-con .phonebottom ul li{
+	float: left;
+	list-style: none;
+	height: 58px;
+	width: 80px;
+	margin: 0 3px;
+	/*background-color: red;*/
+}
